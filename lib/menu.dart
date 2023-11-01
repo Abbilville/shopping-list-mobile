@@ -20,9 +20,10 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+        backgroundColor: Colors.indigo,
         title: const Text(
           'Shopping List',
+          style: TextStyle(color: Colors.white),
         ),
       ),
       body: SingleChildScrollView(
